@@ -15,7 +15,7 @@ class AddProduct extends Notification
      * Create a new notification instance.
      *
      * @return void
-     */
+     */ 
 	 protected $product;
     public function __construct(Product $product)
     {
